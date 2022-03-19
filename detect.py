@@ -38,7 +38,7 @@ def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_col
 
     img = np.copy(image)
     dh, dw, _ = image.shape
-    
+    print(df)
     for row in df:
         x1 = int(row['xmin'].item())
         y1 = int(row['ymin'].item())
