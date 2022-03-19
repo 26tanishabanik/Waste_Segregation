@@ -34,7 +34,7 @@ def predict(image,
     return preds.pandas().xyxy
 
 
-def plot_image( image, df, txtbox_h = 120, txtbox_w = 100, txt_size = 1, box_color = (0, 255, 255), box_width = 2):
+def plot_image( image, df, txtbox_h = 120, txtbox_w = 100, txt_size = 1, box_color = (255, , 255), box_width = 2):
     # if no object is detected in image        
     if df[0].empty:
         return image
