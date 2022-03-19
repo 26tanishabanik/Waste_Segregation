@@ -156,6 +156,12 @@ if option == 'About Project':
 
 if option == 'Contributors':
       rebecca_IMAGE = "Contributors/rebecca.jpeg"
+      anusha_IMAGE = "Contributors/anusha.png"
+      armielyn_IMAGE = "Contributors/armielyn.png"
+      aye_IMAGE = "Contributors/aye.png"
+      payal_IMAGE = "Contributors/payal.png"
+      preeja_IMAGE = "Contributors/preej.png"
+      tanisha_IMAGE = "Contributors/tanisha.png"
       html_temp = """
             <div style="background-color:blue;padding:10px">
             <h2 style="color:white;text-align:center;">Team</h2>
@@ -173,7 +179,36 @@ if option == 'Contributors':
              height:192px;
              margin: 0px 0px 0px 28px;
         }
-        
+        .anusha-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .armielyn-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .aye-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .payal-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .preej-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
         </style>
         """,
         unsafe_allow_html=True
@@ -190,4 +225,58 @@ if option == 'Contributors':
             unsafe_allow_html=True
       )
       st.subheader("Contributors")
+      st.write("1. [Anusha Thatikonda](https://www.linkedin.com/in/anusha-thatikonda/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(anusha_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("2. [Armielyn Obinguar](https://www.linkedin.com/in/armielyn-obinguar-9229561b0/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(armielyn_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("3. [Aye Nyein Thaw](https://www.linkedin.com/in/aye-nyein-thaw-6040311b3/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(aye_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("4. [Payal Rathod](https://www.linkedin.com/in/payalrrathod-/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(payal_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Preeja Babu](https://www.linkedin.com/in/preejababu/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(preeja_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Tanisha Banik](https://www.linkedin.com/in/tanisha-banik-04b511173/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(tanisha_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
       
