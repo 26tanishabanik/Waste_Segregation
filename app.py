@@ -159,6 +159,7 @@ if option == 'Contributors':
       anusha_IMAGE = "Contributors/anusha.png"
       armielyn_IMAGE = "Contributors/armielyn.png"
       aye_IMAGE = "Contributors/aye.png"
+      bridget_IMAGE = "Contributors/bridget.png"
       payal_IMAGE = "Contributors/payal.png"
       preeja_IMAGE = "Contributors/preej.png"
       tanisha_IMAGE = "Contributors/tanisha.png"
@@ -192,6 +193,12 @@ if option == 'Contributors':
              margin: 0px 0px 0px 28px;
         }
         .aye-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .bridget-img {
              float:right;
              width:175px;
              height:192px;
@@ -254,6 +261,15 @@ if option == 'Contributors':
             f"""
             <div class="container">
                   <img class="aye-img" src="data:image/png;base64,{base64.b64encode(open(aye_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("3. [Bridget B]()")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="bridget-img" src="data:image/png;base64,{base64.b64encode(open(bridget_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
