@@ -39,12 +39,12 @@ def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_col
     img = np.copy(image)
     dh, dw, _ = image.shape
     for row in df:
-        x1 = int(row['xmin'].item())
-        y1 = int(row['ymin'].item())
-        x2 = int(row['xmax'].item())
-        y2 = int(row['ymax'].item())
-        conf = round(row['confidence'].item(), 2)
-        class_name = row['name'].item()
+        x1 = int(row['xmin'].tolist())
+        y1 = int(row['ymin'].tolist())
+        x2 = int(row['xmax'].tolist())
+        y2 = int(row['ymax'].tolist())
+        conf = round(row['confidence'].tolist(), 2)
+        class_name = row['name'].tolist()
 
         if x1 < 0:
             x1 = 0
