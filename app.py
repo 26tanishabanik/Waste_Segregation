@@ -209,6 +209,12 @@ if option == 'Contributors':
              height:192px;
              margin: 0px 0px 0px 28px;
         }
+        .tanisha-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
         </style>
         """,
         unsafe_allow_html=True
