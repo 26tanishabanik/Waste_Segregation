@@ -34,7 +34,7 @@ def predict(image,
     return preds.pandas().xyxy
 
 
-def plot_image(txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_color = (0, 0, 255), box_width = 5, image, df):
+def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_color = (0, 0, 255), box_width = 5):
 
     img = np.copy(image)
     dh, dw, _ = image.shape
