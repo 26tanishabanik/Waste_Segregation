@@ -203,7 +203,7 @@ if option == 'Contributors':
              height:192px;
              margin: 0px 0px 0px 28px;
         }
-        .preej-img {
+        .preeja-img {
              float:right;
              width:175px;
              height:192px;
@@ -229,7 +229,7 @@ if option == 'Contributors':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(anusha_IMAGE, "rb").read()).decode()}">
+                  <img class="anusha-img" src="data:image/png;base64,{base64.b64encode(open(anusha_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
@@ -238,7 +238,7 @@ if option == 'Contributors':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(armielyn_IMAGE, "rb").read()).decode()}">
+                  <img class="armielyn-img" src="data:image/png;base64,{base64.b64encode(open(armielyn_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
@@ -247,7 +247,7 @@ if option == 'Contributors':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(aye_IMAGE, "rb").read()).decode()}">
+                  <img class="aye-img" src="data:image/png;base64,{base64.b64encode(open(aye_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
@@ -256,7 +256,7 @@ if option == 'Contributors':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(payal_IMAGE, "rb").read()).decode()}">
+                  <img class="payal-img" src="data:image/png;base64,{base64.b64encode(open(payal_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
@@ -265,7 +265,7 @@ if option == 'Contributors':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="tanisha-img" src="data:image/png;base64,{base64.b64encode(open(preeja_IMAGE, "rb").read()).decode()}">
+                  <img class="preeja-img" src="data:image/png;base64,{base64.b64encode(open(preeja_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
