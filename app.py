@@ -90,7 +90,7 @@ if option == 'Home':
       if isinstance(img_array, np.ndarray):
         preds = predict(img_array)
         st.text(preds)
-        output = plot_image(img_array[..., ::-1], preds)
+        output = plot_image(img_array, preds)
         st.image(output)
         #  for instance, confidence in zip(instances, conf):
               #  st.subheader("Our model is "+ str(round((confidence * 100), 2))+ "% sure that the image contains a " + instance.split(':')[0])
