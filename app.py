@@ -89,6 +89,7 @@ if option == 'Home':
 
       if isinstance(img_array, np.ndarray):
         preds = predict(img_array)
+        st.text(preds)
         output = plot_image(img_array[..., ::-1], preds)
         st.image(output)
         #  for instance, confidence in zip(instances, conf):
