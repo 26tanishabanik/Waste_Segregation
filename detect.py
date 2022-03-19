@@ -35,6 +35,7 @@ def predict(image,
 
 
 def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_color = (0, 0, 255), box_width = 5):
+    # if no object is detected in image        
     if df[0].empty:
         return image
     img = np.copy(image)
