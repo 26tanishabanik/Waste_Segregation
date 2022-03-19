@@ -72,7 +72,7 @@ def plot_image( image, df, txtbox_h = 300, txtbox_w = 100, txt_size = 1, box_col
                           (x1, y1 - 50),
                           cv2.FONT_HERSHEY_SIMPLEX, 
                           txt_size, 
-                          (255, 255, 0), 2)
+                          (0, 0, 0), 2)
         
     return img
 
