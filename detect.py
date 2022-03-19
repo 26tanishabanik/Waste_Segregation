@@ -40,11 +40,11 @@ def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_col
     dh, dw, _ = image.shape
     for row in df:
         x1 = int(row['xmin'].tolist()[0])
-        y1 = int(row['ymin'].tolist())
-        x2 = int(row['xmax'].tolist())
-        y2 = int(row['ymax'].tolist())
-        conf = round(row['confidence'].tolist(), 2)
-        class_name = row['name'].tolist()
+        y1 = int(row['ymin'].tolist()[0])
+        x2 = int(row['xmax'].tolist()[0])
+        y2 = int(row['ymax'].tolist()[0])
+        conf = round(row['confidence'].tolist()[0], 2)
+        class_name = row['name'].tolist()[0]
 
         if x1 < 0:
             x1 = 0
