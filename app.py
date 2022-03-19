@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
 import base64
-
+from detect import *
     
 st.balloons()
 # option = st.sidebar.radio("Menu",['Home', 'About','Contributors'])
@@ -76,7 +76,7 @@ if option == 'Home':
           if uploaded_image is not None:
             try:
                 image = Image.open(uploaded_image)
-                image = ImageOps.grayscale(image)
+                #  image = ImageOps.grayscale(image)
             except Exception:
                 st.error("Error: Invalid image")
             else:
@@ -87,12 +87,13 @@ if option == 'Home':
       st.text("")
       st.text("")
 
-    #   if isinstance(img_array, np.ndarray):
-    #     image, instances, conf = detect_object(img_array)
-    #     st.image(image)
-    #     for instance, confidence in zip(instances, conf):
-    #           st.subheader("Our model is "+ str(round((confidence * 100), 2))+ "% sure that the image contains a " + instance.split(':')[0])
-    #           st.text("")
+      if isinstance(img_array, np.ndarray):
+        preds = predict(img_array)
+        output = plot_image(img_array[..., ::-1], preds)
+        st.image(output)
+        #  for instance, confidence in zip(instances, conf):
+              #  st.subheader("Our model is "+ str(round((confidence * 100), 2))+ "% sure that the image contains a " + instance.split(':')[0])
+              #  st.text("")
         
       
       ana_type = st.sidebar.selectbox(
