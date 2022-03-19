@@ -34,7 +34,7 @@ def predict(image,
     return preds.pandas().xyxy
 
 
-def plot_image( image, df, txtbox_h = 300, txtbox_w = 200, txt_size = 1, box_color = (255, 0, 0), box_width = 2):
+def plot_image( image, df, txtbox_h = 50, txtbox_w = 200, txt_size = 1, box_color = (255, 0, 0), box_width = 2):
     # if no object is detected in image        
     if df[0].empty:
         return image
@@ -62,7 +62,7 @@ def plot_image( image, df, txtbox_h = 300, txtbox_w = 200, txt_size = 1, box_col
 
         # plot rectangle for text
         img = cv2.rectangle(img, 
-                            (x1, txtbox_h), 
+                            (x1, y1-txtbox_h), 
                             (x1 + txtbox_w, y1), 
                             box_color, -1)
 
