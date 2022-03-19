@@ -58,12 +58,12 @@ def plot_image( image, df, txtbox_h = 50, txtbox_w = 200, txt_size = 1, box_colo
             y2 = dh - 1
 
         # plot bounding box
-        cv2.rectangle(img, (x1+50, y1+50), (x2, y2), box_color, box_width)
+        cv2.rectangle(img, (x1, y1), (x2, y2), box_color, box_width)
 
         # plot rectangle for text
         img = cv2.rectangle(img, 
-                            (x1, y1-txtbox_h), 
-                            (x1 + txtbox_w, y1), 
+                            (x1+50, y1-txtbox_h), 
+                            (x1 + txtbox_w, y1+50), 
                             box_color, -1)
 
         # put text
