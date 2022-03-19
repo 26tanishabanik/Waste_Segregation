@@ -62,8 +62,8 @@ def plot_image( image, df, txtbox_h = 50, txtbox_w = 200, txt_size = 1, box_colo
 
         # plot rectangle for text
         img = cv2.rectangle(img, 
-                            (x1+50, y1-txtbox_h), 
-                            (x1 + txtbox_w, y1+50), 
+                            (x1, y1-txtbox_h), 
+                            (x1 + txtbox_w, y1-50), 
                             box_color, -1)
 
         # put text
