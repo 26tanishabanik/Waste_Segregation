@@ -4,11 +4,11 @@ import numpy as np
 
 
 def predict(image,
-            yolov5_folder,
-            weights_dir,
-            img_size,
-            conf, # NMS confidence threshold
-            iou, # NMS IoU threshold
+            yolov5_folder = 'yolov5',
+            weights_dir = "weights/best.pt",
+            img_size = 512,
+            conf = 0.25, # NMS confidence threshold
+            iou = 0.45, # NMS IoU threshold
             agnostic = False, # NMS class-agnostic
             multi_label = False, # NMS multiple labels per box
             classes = None, # (optional list) filter by class, i.e. = [0, 15, 16] for COCO persons, cats and dogs
@@ -18,7 +18,7 @@ def predict(image,
     # local repo & model
     model = torch.hub.load(yolov5_folder, 'custom', path=weights_dir, source='local')
 
-    model.cuda()
+    #  model.cuda()
 
     # Inference Setting
     model.conf = conf  
@@ -34,7 +34,7 @@ def predict(image,
     return preds.pandas().xyxy
 
 
-def plot_image(image, txtbox_h, txtbox_w, df, txt_size, box_color = (0, 0, 255), box_width = 5):
+def plot_image(image, txtbox_h = 120, txtbox_w = 500, df, txt_size = 3, box_color = (0, 0, 255), box_width = 5):
 
     img = np.copy(image)
     dh, dw, _ = image.shape
