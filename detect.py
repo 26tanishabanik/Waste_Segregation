@@ -39,7 +39,7 @@ def plot_image( image, df, txtbox_h = 120, txtbox_w = 500, txt_size = 3, box_col
     img = np.copy(image)
     dh, dw, _ = image.shape
     for row in df:
-        x1 = int(row['xmin'].tolist())
+        x1 = int(row['xmin'].tolist()[0])
         y1 = int(row['ymin'].tolist())
         x2 = int(row['xmax'].tolist())
         y2 = int(row['ymax'].tolist())
