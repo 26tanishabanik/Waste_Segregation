@@ -69,7 +69,7 @@ def plot_image( image, df, txtbox_h = 50, txtbox_w = 200, txt_size = 1, box_colo
         # put text
         img = cv2.putText(img, 
                           class_name,
-                          (x1, y1),
+                          (x1, y1-50),
                           cv2.FONT_HERSHEY_SIMPLEX, 
                           txt_size, 
                           (0, 0, 0), 2)
