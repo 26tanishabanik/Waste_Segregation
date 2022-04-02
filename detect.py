@@ -5,7 +5,7 @@ import numpy as np
 
 def predict(image,
             yolov5_folder = 'yolov5',
-            weights_dir = "weights/best.pt",
+            weights_dir = "weights_new/best.pt",
             img_size = 512,
             conf = 0.25, # NMS confidence threshold
             iou = 0.45, # NMS IoU threshold
