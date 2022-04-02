@@ -104,26 +104,26 @@ if option == 'Home':
       if ana_type == 'Plastic':
             image1 = Image.open('Waste_Categories/plastic.jpeg')
             st.sidebar.image(image1, caption='Plastic')
-            st.sidebar.write("Give description for plastic")
+            st.sidebar.write("The use of plastics is deeply embedded in our daily lives, in everything from grocery bags and cutlery to water bottles and sandwich wrap. But the quest for convenience has gone too far and we are failing to use plastics efficiently, wasting valuable resources and harming the environment. Plastic overconsumption and mismanagement of plastic waste is a growing menace, causing landfills to overflow, choking rivers, and threatening marine ecosystems. This has a negative impact on sectors that are critical to many economies, including tourism, shipping and fisheries.")
       
       elif ana_type =='Glass':
             image2 = Image.open('Waste_Categories/glass.jpeg')
             st.sidebar.image(image2, caption='Glass')
-            st.sidebar.write("Give description for glass")
+            st.sidebar.write("Glass bottles could have an even bigger impact on the environment than plastic ones, a new study has found. Researchers at the University of Southampton in England set out to determine which common beverage containers cause the most and least harm to the environment. They found that glass is actually more detrimental than plastic because it is mined from rare materials and requires more fossil fuels to produce and ship.")
             
       elif ana_type =='Cardboard':
             image3 = Image.open('Waste_Categories/cardboard.jpeg')
             st.sidebar.image(image3, caption='Cardboard')
-            st.sidebar.write("Give description for cardboard")
+            st.sidebar.write("Cardboard is one of the most commonly used materials for packing electronics and food. Because of this, it is one of the items that is recycled along with used clothes, electronics, and plastic. Recycling cardboard helps reduce solid waste, reduce demand on our natural resources, reduce the amount of trash going to the landfill, and contribute to cleaner air. Cardboard ends up In landfill, increases the amount Of methane in The atmosphere, increases natural resource consumption and so on.")
             
       elif ana_type =='Paper':
             image4 = Image.open('Waste_Categories/paper.jpeg')
             st.sidebar.image(image4, caption='Paper')
-            st.sidebar.write("Give description for paper")
+            st.sidebar.write("Paper constitutes over a third of all litter. It costs states as much as hundreds of thousands of dollars in clean up annually. Areas with litter problems are unattractive to tourists and businesses. Littered areas breed bacteria and attract insects and rodents, which spread the bacteria and cause illness. Paper contains toxins that seep into soil as the paper decomposes. These toxins are carried into waterways via storm water. Animals eat litter and become ill or die. Pedestrians, unsecured trucks and poorly covered trash bins are the main causes of litter.")
       elif ana_type =='Metals':
             image5 = Image.open('Waste_Categories/metal.jpeg')
             st.sidebar.image(image5, caption='Metals')
-            st.sidebar.write("Give description for metals")
+            st.sidebar.write("Metal is so sturdy and durable that it doesn’t simply break apart and vanish when disposed of. This means that the metal you use today will be the metal haunting the environment and damaging it a hundred years from now. Let’s look a little more specifically at some of the consequences of improper metal disposal. When we don’t take the proper precautions to dispose of our metal, or recycle it if that option is available, you are going to end up doing a disservice to the environment and the people around us. Most metal, scrap or otherwise, will have been treated with chemicals at some point or another. This means that if we improperly dispose or handle the metal, we’ll end up putting chemicals back into the environment. Chemicals can seep into the ground, drift to nearby water sources, and become instantly damaging sources of pollution for humans, animals, and the very world we live in. ")
      
          
 
