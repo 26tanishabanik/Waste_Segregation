@@ -373,7 +373,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("1. [Alexandre Lang](https://www.linkedin.com/in/alexandre-lang-ds/)")
+      st.write("2. [Alexandre Lang](https://www.linkedin.com/in/alexandre-lang-ds/)")
       st.markdown(
             f"""
             <div class="container">
@@ -382,7 +382,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("1. [Anmol Kumar](https://www.linkedin.com/in/anmol-kumar-94b5571a2/)")
+      st.write("3. [Anmol Kumar](https://www.linkedin.com/in/anmol-kumar-94b5571a2/)")
       st.markdown(
             f"""
             <div class="container">
@@ -391,7 +391,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("2. [Armielyn Obinguar](https://www.linkedin.com/in/armielyn-obinguar-9229561b0/)")
+      st.write("4. [Armielyn Obinguar](https://www.linkedin.com/in/armielyn-obinguar-9229561b0/)")
       st.markdown(
             f"""
             <div class="container">
@@ -400,7 +400,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("3. [Aye Nyein Thaw](https://www.linkedin.com/in/aye-nyein-thaw-6040311b3/)")
+      st.write("5. [Aye Nyein Thaw](https://www.linkedin.com/in/aye-nyein-thaw-6040311b3/)")
       st.markdown(
             f"""
             <div class="container">
@@ -409,7 +409,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("3. [Bridget B]()")
+      st.write("6. [Bridget B]()")
       st.markdown(
             f"""
             <div class="container">
@@ -418,7 +418,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("3. [Henry Shu](https://www.linkedin.com/in/henry-shu-67b86099/)")
+      st.write("7. [Henry Shu](https://www.linkedin.com/in/henry-shu-67b86099/)")
       st.markdown(
             f"""
             <div class="container">
@@ -427,7 +427,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("3. [Jennifer Joseph](https://www.linkedin.com/in/jennifer-joseph-b50776151/)")
+      st.write("8. [Jennifer Joseph](https://www.linkedin.com/in/jennifer-joseph-b50776151/)")
       st.markdown(
             f"""
             <div class="container">
@@ -436,7 +436,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("3. [Noel Simonovici](https://www.linkedin.com/in/noelsimonovici/)")
+      st.write("9. [Noel Simonovici](https://www.linkedin.com/in/noelsimonovici/)")
       st.markdown(
             f"""
             <div class="container">
@@ -445,7 +445,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("4. [Payal Rathod](https://www.linkedin.com/in/payalrrathod-/)")
+      st.write("10. [Payal Rathod](https://www.linkedin.com/in/payalrrathod-/)")
       st.markdown(
             f"""
             <div class="container">
@@ -454,7 +454,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Preeja Babu](https://www.linkedin.com/in/preejababu/)")
+      st.write("11. [Preeja Babu](https://www.linkedin.com/in/preejababu/)")
       st.markdown(
             f"""
             <div class="container">
@@ -463,7 +463,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Pushkaraj Dhoot](https://www.linkedin.com/in/pushkaraj-dhoot-770321166/)")
+      st.write("12. [Pushkaraj Dhoot](https://www.linkedin.com/in/pushkaraj-dhoot-770321166/)")
       st.markdown(
             f"""
             <div class="container">
@@ -472,7 +472,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Rhey Ann Magcalas](https://www.linkedin.com/in/rhey-ann-magcalas-47541490/)")
+      st.write("13. [Rhey Ann Magcalas](https://www.linkedin.com/in/rhey-ann-magcalas-47541490/)")
       st.markdown(
             f"""
             <div class="container">
@@ -481,7 +481,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Sanjay Sharma](https://www.linkedin.com/in/aerosanjay)")
+      st.write("14. [Sanjay Sharma](https://www.linkedin.com/in/aerosanjay)")
       st.markdown(
             f"""
             <div class="container">
@@ -490,7 +490,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Surya Abhishek](https://www.linkedin.com/in/suryaabhishek/)")
+      st.write("15. [Surya Abhishek](https://www.linkedin.com/in/suryaabhishek/)")
       st.markdown(
             f"""
             <div class="container">
@@ -499,7 +499,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("5. [Tanisha Banik](https://www.linkedin.com/in/tanisha-banik-04b511173/)")
+      st.write("16. [Tanisha Banik](https://www.linkedin.com/in/tanisha-banik-04b511173/)")
       st.markdown(
             f"""
             <div class="container">
