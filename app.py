@@ -155,7 +155,7 @@ if option == 'About Project':
   
 
 if option == 'Contributors':
-      rebecca_IMAGE = "Contributors/rebecca.jpeg"
+      rebecca_IMAGE = "Contributors/rebecca.png"
       anusha_IMAGE = "Contributors/anusha.png"
       alexandre_IMAGE = "Contributors/alexandre.png"
       anmol_IMAGE = "Contributors/anmol.png"
