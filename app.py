@@ -157,11 +157,20 @@ if option == 'About Project':
 if option == 'Contributors':
       rebecca_IMAGE = "Contributors/rebecca.jpeg"
       anusha_IMAGE = "Contributors/anusha.png"
+      alexandre_IMAGE = "Contributors/alexandre.png"
+      anmol_IMAGE = "Contributors/anmol.png"
       armielyn_IMAGE = "Contributors/armielyn.png"
       aye_IMAGE = "Contributors/aye.png"
       bridget_IMAGE = "Contributors/bridget.png"
+      henry_IMAGE = "Contributors/henry.png"
+      jennifer_IMAGE = "Contributors/jennifer.png"
+      noel_IMAGE = "Contributors/noel.png"
       payal_IMAGE = "Contributors/payal.png"
       preeja_IMAGE = "Contributors/preej.png"
+      pushkaraj_IMAGE = "Contributors/pushkaraj.png"
+      rheyAnnMagcalas_IMAGE = "Contributors/rheyAnnMagcalas.png"
+      sanjay_IMAGE = "Contributors/sanjay.png"
+      surya_IMAGE = "Contributors/surya.png"
       tanisha_IMAGE = "Contributors/tanisha.png"
       html_temp = """
             <div style="background-color:blue;padding:10px">
@@ -186,6 +195,18 @@ if option == 'Contributors':
              height:192px;
              margin: 0px 0px 0px 28px;
         }
+        .alexandre-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .anmol-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
         .armielyn-img {
              float:right;
              width:175px;
@@ -204,6 +225,24 @@ if option == 'Contributors':
              height:192px;
              margin: 0px 0px 0px 28px;
         }
+        .henry-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .jennifer-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .noel-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
         .payal-img {
              float:right;
              width:175px;
@@ -211,6 +250,30 @@ if option == 'Contributors':
              margin: 0px 0px 0px 28px;
         }
         .preeja-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .pushkaraj-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .rheyAnnMagcalas-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .sanjay-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .surya-img {
              float:right;
              width:175px;
              height:192px;
@@ -247,6 +310,24 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
+      st.write("1. [Alexandre Lang](https://www.linkedin.com/in/alexandre-lang-ds/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="alexandre-img" src="data:image/png;base64,{base64.b64encode(open(alexandre_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("1. [Anmol Kumar](https://www.linkedin.com/in/anmol-kumar-94b5571a2/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="anmol-img" src="data:image/png;base64,{base64.b64encode(open(anmol_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
       st.write("2. [Armielyn Obinguar](https://www.linkedin.com/in/armielyn-obinguar-9229561b0/)")
       st.markdown(
             f"""
@@ -274,6 +355,33 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
+      st.write("3. [Henry Shu](https://www.linkedin.com/in/henry-shu-67b86099/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="henry-img" src="data:image/png;base64,{base64.b64encode(open(henry_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("3. [Jennifer Joseph](https://www.linkedin.com/in/jennifer-joseph-b50776151/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="jennifer-img" src="data:image/png;base64,{base64.b64encode(open(jennifer_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("3. [Noel Simonovici](https://www.linkedin.com/in/noelsimonovici/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="noel-img" src="data:image/png;base64,{base64.b64encode(open(noel_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
       st.write("4. [Payal Rathod](https://www.linkedin.com/in/payalrrathod-/)")
       st.markdown(
             f"""
@@ -288,6 +396,42 @@ if option == 'Contributors':
             f"""
             <div class="container">
                   <img class="preeja-img" src="data:image/png;base64,{base64.b64encode(open(preeja_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Pushkaraj Dhoot](https://www.linkedin.com/in/pushkaraj-dhoot-770321166/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="pushkaraj-img" src="data:image/png;base64,{base64.b64encode(open(pushkaraj_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Rhey Ann Magcalas](https://www.linkedin.com/in/rhey-ann-magcalas-47541490/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="rheyAnnMagcalas-img" src="data:image/png;base64,{base64.b64encode(open(rheyAnnMagcalas_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Sanjay Sharma](https://www.linkedin.com/in/aerosanjay)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="sanjay-img" src="data:image/png;base64,{base64.b64encode(open(sanjay_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("5. [Surya Abhishek](https://www.linkedin.com/in/suryaabhishek/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="surya-img" src="data:image/png;base64,{base64.b64encode(open(surya_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
