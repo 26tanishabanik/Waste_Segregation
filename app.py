@@ -210,6 +210,12 @@ if option == 'About Project':
   st.markdown('&nbsp; &nbsp; &nbsp;  3. Annotating Images to reflect the correct waste category',unsafe_allow_html=True)
   st.markdown('&nbsp; &nbsp; &nbsp;  4. Computer Vision techniques to identify and classify different waste materials',unsafe_allow_html=True)
   st.markdown('&nbsp; &nbsp; &nbsp;  5. Deploying Dashboard and Visualization to make the ML model available to the public',unsafe_allow_html=True)
+  st.subheader("Results: ")
+  st.image('assets/result1.png')
+  st.image('assets/result2.png')
+  st.image('assets/result3.png')
+  st.image('assets/result4.png')
+  st.image('assets/result5.png')
 
 if option == 'Contributors':
       rebecca_IMAGE = "Contributors/rebecca.png"
