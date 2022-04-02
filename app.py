@@ -168,7 +168,7 @@ if option == 'About Model':
   st.markdown('&nbsp; &nbsp; &nbsp; • Contain a lot of overlapping objects.',unsafe_allow_html=True)
   st.markdown('&nbsp; &nbsp; &nbsp; • Very time-consuming in context of annotations.',unsafe_allow_html=True)
   st.image('assets/type-3.png')
-#   st.subheader("Final Model-YoloV5m: ")
+  st.subheader("Final Model-YoloV5m: ")
 #   st.markdown('The final Yolo 5m model was trained on the v1_yolo  dataset. In Object Detection tasks, an imbalanced training set problem is more significant. Thus, the v1_yolo dataset was created.',unsafe_allow_html=True)
 #   st.markdown('It is a balanced dataset with 450 samples from higher frequency classes. The model was trained using the training scripts from the Ultralytics Repo. The inference script uses the torch-hub',unsafe_allow_html=True)
 #   st.markdown('and the saved best pre-trained weights.',unsafe_allow_html=True)
