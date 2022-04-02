@@ -181,6 +181,7 @@ if option == 'About Model':
 #   st.markdown('Default augmentation techniques and default values were used for various other hyperparameters such as learning rate, weight decay, and warmup epochs to train the final model. In the inference script,',unsafe_allow_html=True)
 #   st.markdown('the flexibility is given to the user to set the confidence threshold to control the number of false-positive cases in the prediction. The default value of the confidence threshold is set to 0.5.',unsafe_allow_html=True)
   st.image('assets/model.png')
+  st.subheader("Link to Github: [Official Project Repository](https://github.com/OmdenaAI/france-chapter-trash-segregation)")
 #   st.subheader("Model Insights: ")
 #   st.markdown('&nbsp; &nbsp; &nbsp; • The model is successfully detecting the different categories of waste  and are able to distinguish between different types of classes from  non overlapping  objects in an  image.',unsafe_allow_html=True)
 #   st.markdown('&nbsp; &nbsp; &nbsp; • The v1_yolo.zip Data was well balanced i.e. number of images for each of the categories in the training dataset  had equal frequency  which tremendously improved the model performance.',unsafe_allow_html=True)
