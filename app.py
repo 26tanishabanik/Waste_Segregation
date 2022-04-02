@@ -412,7 +412,7 @@ if option == 'Contributors':
             """,
             unsafe_allow_html=True
       )
-      st.write("6. [Bridget B]()")
+      st.write("6. [Bridget B](https://www.linkedin.com/in/bridgetboakye/?originalSubdomain=gh)")
       st.markdown(
             f"""
             <div class="container">
