@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
 import base64
-from Waste_Segregation.detect import *
+
     
 st.balloons()
 # option = st.sidebar.radio("Menu",['Home', 'About','Contributors'])
