@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
 import base64
-from detect import *
+from Waste_Segregation.detect import *
     
 st.balloons()
 # option = st.sidebar.radio("Menu",['Home', 'About','Contributors'])
@@ -90,7 +90,7 @@ if option == 'Home':
       if isinstance(img_array, np.ndarray):
         preds = predict(img_array)
         st.text(preds)
-        output = plot_image(img_array, preds)
+        output = plot_image3(img_array, preds)
         st.image(output)
         #  for instance, confidence in zip(instances, conf):
               #  st.subheader("Our model is "+ str(round((confidence * 100), 2))+ "% sure that the image contains a " + instance.split(':')[0])
