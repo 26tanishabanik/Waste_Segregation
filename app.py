@@ -237,6 +237,7 @@ if option == 'Contributors':
       pushkaraj_IMAGE = "Contributors/pushkaraj.png"
       rheyAnnMagcalas_IMAGE = "Contributors/rheyAnnMagcalas.png"
       sanjay_IMAGE = "Contributors/sanjay.png"
+      siamak_IMAGE = "Contributors/siamak.jpg"
       surya_IMAGE = "Contributors/surya.png"
       tanisha_IMAGE = "Contributors/tanisha.png"
       html_temp = """
@@ -335,6 +336,12 @@ if option == 'Contributors':
              margin: 0px 0px 0px 28px;
         }
         .sanjay-img {
+             float:right;
+             width:175px;
+             height:192px;
+             margin: 0px 0px 0px 28px;
+        }
+        .siamak-img {
              float:right;
              width:175px;
              height:192px;
@@ -490,6 +497,15 @@ if option == 'Contributors':
             f"""
             <div class="container">
                   <img class="sanjay-img" src="data:image/png;base64,{base64.b64encode(open(sanjay_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True
+      )
+      st.write("14. [Siamak Niroomandi](https://www.linkedin.com/in/siamakniroomandi/)")
+      st.markdown(
+            f"""
+            <div class="container">
+                  <img class="siamak-img" src="data:image/jpg;base64,{base64.b64encode(open(siamak_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
